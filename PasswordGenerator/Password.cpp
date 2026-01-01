@@ -21,7 +21,7 @@ void Password::getOptions()
 	std::cin >> choice;
 	if (choice == 'y')
 	{
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //clear buffer just in case like bellow
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //clear buffer just in case like below
 		options.insert(0);
 	}
 	else if(choice == 'n')
